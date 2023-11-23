@@ -22,7 +22,7 @@ Acidentes de trânsito matam cerca de 1,25 milhão de pessoas por ano ao redor d
 O projeto foi desenvolvido em Python lalala
 
 ### Vídeo do Projeto
-<a href="https://www.youtube.com/watch?v=GrdHiHn2XyU"><img src="https://ibb.co/6nVZNMN" alt="Slide de PowerPoint do projeto" border="0"></a>
+<a href="https://www.youtube.com/watch?v=GrdHiHn2XyU"><img src="https://i.ibb.co/kHkyM7M/Whats-App-Image-2023-11-22-at-23-12-07.jpg" alt="Slide de PowerPoint do projeto" border="0"></a>
 
 ## Desenvolvedores
 
