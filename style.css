@@ -9,8 +9,9 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;  
-    background-color: lightgrey;
+    background-color: white;
     width: 100%;
+    box-shadow: 0 4px 6px -6px #000000;
   }
   
 ul.menu {
@@ -27,7 +28,7 @@ nav img {
 
 .nav-button{
     border:none;
-    background-color: lightgrey;
+    background-color: white;
     font-family: 'Noto Serif', serif, Arial, Helvetica, sans-serif;
     font-size: 1rem;
     align-items: baseline;
@@ -62,7 +63,7 @@ section#home{
 
 #iframe-pitch{
     position: absolute;
-    top: 16.2%;
+    top: 18.4%;
     left: 4.2%;
 }
 
@@ -73,7 +74,7 @@ section#home{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 80%;
+    height: 100%;
     align-self: center;
     justify-content: center;
     gap:2rem;
@@ -100,4 +101,13 @@ section#home{
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
+}
+
+/* Problema e Solução */
+
+#problema-e-solucao{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 38rem;
 }
