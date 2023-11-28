@@ -33,6 +33,12 @@ nav img {
     font-size: 1rem;
     align-items: baseline;
     padding: 0.8rem;
+    cursor: pointer;
+}
+
+.nav-button:hover{
+    background-color: #b4cde2;
+    padding: 1.3rem;
 }
 
 .home-icon{
@@ -49,7 +55,8 @@ section#home{
     width: 100%;
     display: flex;
     flex-direction: row;
-    padding: 1.2rem;
+    height: 38rem;
+    align-items: center;
 }
 
 #pitch{
@@ -63,14 +70,14 @@ section#home{
 
 #iframe-pitch{
     position: absolute;
-    top: 18.4%;
+    top: 19.4%;
     left: 4.2%;
 }
 
 /* Abertura de impacto */
 
 #abertura-de-impacto{
-    width: 45%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,6 +86,7 @@ section#home{
     justify-content: center;
     gap:2rem;
     font-family: 'Noto Serif', serif, Arial, Helvetica, sans-serif;
+    text-align: justify;
 }
 
 /* Footer */
@@ -109,5 +117,283 @@ section#home{
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+#problema-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     height: 38rem;
+    background-color: lightgray;
+}
+
+#img-problema-1{
+    width: 50%;
+}
+#ambulance-img{
+    width: 90%;
+}
+
+#texto-problema-1{
+    width: 40%;
+    align-self: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Serif', serif, Arial, Helvetica, sans-serif;
+    gap: 2rem;
+    text-align: justify;
+
+}
+
+#problema-2{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#texto-problema-2{
+    width: 40%;
+    align-self: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Serif', serif, Arial, Helvetica, sans-serif;
+    gap: 2rem;
+    text-align: center;
+    text-align: justify;
+
+}
+
+#img-problema-2{
+    width: 50%;
+}
+
+#solucao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgray;
+    width: 100%;
+
+}
+
+#img-solucao{
+    width: 50%;
+}
+
+#solucao-img{
+    width: 90%;
+}
+
+#texto-solucao{
+    width: 40%;
+    align-self: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Serif', serif, Arial, Helvetica, sans-serif;
+    gap: 2rem;
+    text-align: center;
+    text-align: justify;
+}
+
+/*Contato*/
+
+/* Parte 1 */
+
+#contato-parte-1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 38rem;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    font-family: 'Noto Serif', serif, Arial, Helvetica, sans-serif;
+
+}
+
+#form-contato{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contato-box{
+    width:16rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+#btn-form-contato{
+    background-color: #4682B4;
+    font-family: 'Noto Serif', serif, Arial, Helvetica, sans-serif;
+    border:none;
+    padding: 0.3rem;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+/*Parte 2*/
+
+#contato-parte-2{
+    font-family: 'Noto Serif', serif, Arial, Helvetica, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: lightgray;
+}
+
+.desenvolvedores-img{
+    background-color: blueviolet;
+    border-radius: 100rem;
+    width: 10rem;
+    height: 10rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#caio-freitas{
+    background-image: url("./img/caio-img.jpeg");
+}
+
+#lana-andrade{
+    background-image: url("./img/lana-img.jpeg");
+}
+
+#devs-table{
+    border-spacing: 8rem 0;
+}
+
+.tr-devs{
+    text-align: center;
+}
+
+/* Demonstração da solução */
+
+#demonstracao-da-solucao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 2rem;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+
+.pergunta-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.pergunta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 4.5rem;
+    width: 20rem;
+    border: solid;
+    border-color: #4682B4;
+    border-radius: 0.7rem;
+    border-width: .1rem;
+    font-family: 'Noto Serif', serif, Arial, Helvetica, sans-serif;
+}
+
+.repostas-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20rem;
+    box-sizing: border-box;
+    gap: 1rem;
+}
+
+.btn-respostas{
+    width: 9.5rem;
+    border: solid;
+    border-color: #4682B4;
+    border-radius: 0.7rem;
+    border-width: .1rem;
+    font-family: 'Noto Serif', serif, Arial, Helvetica, sans-serif;
+    height: 2rem;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn-respostas:hover{
+    background-color: #4682B4;
+    color: white;
+}
+
+.tutorial-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    border: solid;
+    border-color: #4682B4;
+    border-radius: 0.7rem;
+    border-width: .1rem;
+    font-family: 'Noto Serif', serif, Arial, Helvetica, sans-serif;
+
+}
+
+.tutorial-img{
+    width: 19.5rem;
+    padding-top: 0.25rem;
+}
+
+.tutorial-p{
+    width: 19rem;
+    text-align: justify;
+}
+
+#respiracao{
+    display: none;
+}
+
+.titulo-tutorial{
+    width: 20rem;
+    font-family: 'Noto Serif', serif, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.tutorial-box-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#tutorial-cpr, #respiracao, #tutorial-consciente, #tutorial-inconsciente, #respiracao-nao, #respiracao-sim, #batimentos{
+    display: none;
+}
+
+#tutorial-respiracao-sim, #tutorial-respiracao-nao, #tt-batimentos-nao, #tt-batimentos-sim, #sangramento{
+    display: none;
 }

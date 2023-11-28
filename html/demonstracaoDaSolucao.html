@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <script src="../script.js"></script>
+    <link rel="icon" type="image/x-icon" href="../img/logo.png">
+    <title>Mobile Assist - Demonstração da Solução</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+
+            <img src="../img/logo.png" alt="Logo do Site"/>
+
+            <ul class="menu">
+              <li><button class="nav-button home-icon" onclick="location.href='../index.html'"><i class="bi bi-house"></i></button></li>
+              <li><button class="nav-button" onclick="location.href='./problemaESolucao.html'">Problema & Solução</button></li>
+              <li><button class="nav-button azul" onclick="location.href='./demonstracaoDaSolucao.html'">Demonstração da Solução</button></li>
+              <li><button class="nav-button " onclick="location.href='./contato.html'">Contato</button></li>
+            </ul>      
+
+        </nav>
+    </header>
+
+    <section id="demonstracao-da-solucao">
+
+        <div class="pergunta-box">
+
+            <div class="pergunta">
+                <p>O paciente está consciente?</p>
+            </div>
+
+            <div class="repostas-box">
+
+                <button onclick="conscienteSim()" class="btn-respostas" id="btn-consciente-sim" type="button">Sim</button>   
+                <button onclick="conscienteNao()" class="btn-respostas" id="btn-consciente-nao" type="button">Não</button> 
+            
+            </div>
+        </div>
+
+        
+        <div class="tutorial-box-container" id="tutorial-inconsciente">
+
+            <div class="tutorial-box">
+
+                <img class="tutorial-img" src="../img/cpr.webp" alt="Imagem de tutorial">
+
+                <p class="tutorial-p">
+                    Aguarde os primeiros socorros e siga as instruções seguintes. 
+                </p>
+            </div>
+        </div>
+
+        <div class="tutorial-box-container" id="tutorial-consciente">
+
+            <div class="tutorial-box">
+
+                <img class="tutorial-img" src="../img/cpr.webp" alt="Imagem de tutorial">
+
+                <p class="tutorial-p">
+                    Mantenha o paciente aquecido, pergunte se está tudo bem e se sente alguma dor e espere a emergência chegar ao local.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="pergunta-box" id="respiracao">
+
+            <div class="pergunta">
+                <p>O paciente está respirando?</p>
+            </div>
+
+            <div class="repostas-box">
+
+                <button onclick="respirandoSim()" class="btn-respostas" id="btn-respirando-sim" type="button">Sim</button>   
+                <button onclick="respirandoNao()" class="btn-respostas" id="btn-respirando-nao" type="button">Não</button> 
+            
+            </div>
+        </div>
+
+        <div class="tutorial-box-container" id="tutorial-respiracao-sim">
+
+            <div class="tutorial-box">
+
+                <img class="tutorial-img" src="../img/cpr.webp" alt="Imagem de tutorial">
+
+                <p class="tutorial-p">
+                    Não mova o corpo do paciente e mantenha a cabeça do mesmo imóvel
+                </p>
+            </div>
+        </div>
+
+        <div class="tutorial-box-container" id="tutorial-respiracao-nao">
+
+            <div class="tutorial-box">
+
+                <img class="tutorial-img" src="../img/cpr.webp" alt="Imagem de tutorial">
+
+                <p class="tutorial-p">
+                    Para realizar o movimento de ventilação em uma pessoa sem respiração durante a RCP, siga estas etapas:
+                    Após iniciar as compressões torácicas, abra as vias respiratórias da vítima inclinando a cabeça para trás.
+                    Se for seguro fazê-lo, tampe o nariz da vítima com os dedos que não estão na testa.
+                    Faça uma vedação hermética sobre a boca da vítima com sua boca.
+                    Dê uma ventilação, soprando ar suficiente para fazer o peito da vítima subir visivelmente.
+                    Permita que o peito da vítima caia antes de iniciar a próxima compressão torácica.
+                    Se treinado em RCP com ventilações, continue alternando entre compressões e ventilações.
+                    Lembre-se de manter um ritmo consistente durante as compressões e ventilações até a chegada de ajuda profissional.
+                </p>
+            </div>
+        </div>
+
+        <div class="pergunta-box" id="batimentos">
+
+            <div class="pergunta">
+                <p>O paciente tem batimento cardiaco?</p>
+            </div>
+
+            <div class="repostas-box">
+
+                <button onclick="batimentosSim()" class="btn-respostas" id="btn-batimentos-sim" type="button">Sim</button>   
+                <button onclick="batimentosNao()" class="btn-respostas" id="btn-batimentos-nao" type="button">Não</button> 
+            
+            </div>
+        </div>
+
+        <div class="tutorial-box-container" id="tt-batimentos-nao">
+
+            <div class="tutorial-box">
+
+                <img class="tutorial-img" src="../img/cpr.webp" alt="Imagem de tutorial">
+
+                <p class="tutorial-p">
+                    Se você se deparar com alguém que não tem pulso, a massagem cardíaca é essencial. Siga estes passos:
+                    Verifique a cena para segurança, chame ajuda profissional e tente acordar a vítima.
+                    Se a vítima não estiver respirando normalmente, posicione suas mãos no centro do peito e comprima para baixo 5-6 cm a uma frequência de 100-120 compressões por minuto.
+                    Continue as compressões sem interrupções até a chegada da ajuda profissional ou sinais de recuperação.
+                    Se treinado em RCP com ventilações, pode alternar compressões com ventilações.
+                    Lembre-se de que a consistência é crucial para manter o fluxo sanguíneo até que a ajuda profissional chegue.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="tutorial-box-container" id="tt-batimentos-sim">
+
+            <div class="tutorial-box">
+
+                <img class="tutorial-img" src="../img/cpr.webp" alt="Imagem de tutorial">
+
+                <p class="tutorial-p">
+                    Aguarde os primeiros socorros e siga as instruções seguintes.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="pergunta-box" id="sangramento">
+
+            <div class="pergunta">
+                <p>O paciente está sangrando?</p>
+            </div>
+
+            <div class="repostas-box">
+
+                <button onclick="" class="btn-respostas" id="" type="button">Sim</button>   
+                <button onclick="batimentoNao()" class="btn-respostas" id="" type="button">Não</button> 
+            
+            </div>
+        </div>
+
+        <div class="pergunta-box" id="respiracao">
+
+            <div class="pergunta">
+                <p>O paciente possui alguma fratura visível?</p>
+            </div>
+
+            <div class="repostas-box">
+
+                <button onclick="" class="btn-respostas" id="respiracao-sim" type="button">Sim</button>   
+                <button onclick="batimentoNao()" class="btn-respostas" id="respiracao-nao" type="button">Não</button> 
+            
+            </div>
+        </div>
+
+        <div class="pergunta-box" id="respiracao">
+
+            <div class="pergunta">
+                <p>O paciente bateu a cabeça?</p>
+            </div>
+
+            <div class="repostas-box">
+
+                <button onclick="" class="btn-respostas" id="respiracao-sim" type="button">Sim</button>   
+                <button onclick="batimentoNao()" class="btn-respostas" id="respiracao-nao" type="button">Não</button> 
+            
+            </div>
+        </div>
+
+        <div class="pergunta-box" id="respiracao">
+
+            <div class="pergunta">
+                <p>O paciente está com alguma queimadura visível?</p>
+            </div>
+
+            <div class="repostas-box">
+
+                <button onclick="" class="btn-respostas" id="respiracao-sim" type="button">Sim</button>   
+                <button onclick="batimentoNao()" class="btn-respostas" id="respiracao-nao" type="button">Não</button> 
+            
+            </div>
+        </div>
+
+        <div class="pergunta-box" id="respiracao">
+
+            <div class="pergunta">
+                <p>O paciente está se engasgando?</p>
+            </div>
+
+            <div class="repostas-box">
+
+                <button onclick="" class="btn-respostas" id="respiracao-sim" type="button">Sim</button>   
+                <button onclick="batimentoNao()" class="btn-respostas" id="respiracao-nao" type="button">Não</button> 
+            
+            </div>
+        </div>
+
+        <div class="pergunta-box" id="respiracao">
+
+            <div class="pergunta">
+                <p>O paciente se afogou?</p>
+            </div>
+
+            <div class="repostas-box">
+
+                <button onclick="" class="btn-respostas" id="respiracao-sim" type="button">Sim</button>   
+                <button onclick="batimentoNao()" class="btn-respostas" id="respiracao-nao" type="button">Não</button> 
+            
+            </div>
+        </div>
+
+        <div class="tutorial-box-container" id="tutorial-cpr">
+
+            <p class="titulo-tutorial">Por favor realize o procedimento abaixo: </p>
+
+            <div class="tutorial-box">
+
+                <img class="tutorial-img" src="../img/cpr.webp" alt="Imagem de tutorial">
+
+                <p class="tutorial-p">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <h2>Mobile Assist</h2>
+        <p>Projeto desenvolvido como trabalho para o curso de Engenharia de Software</p>
+        <p>FIAP - São Paulo, 2023</p>
+        <div class="icons-footer">
+            <a href="https://www.facebook.com/intermedicaonline/" class="white-font">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/notredame.intermedica/" class="white-font">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/gndi/?originalSubdomain=br" class="white-font">
+                <i class="bi bi-linkedin"></i>
+            </a>
+        </div>
+    </footer>
+
+
+</body>
