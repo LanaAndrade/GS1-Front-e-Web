@@ -170,13 +170,47 @@
 
             <div class="repostas-box">
 
-                <button onclick="" class="btn-respostas" id="" type="button">Sim</button>   
-                <button onclick="batimentoNao()" class="btn-respostas" id="" type="button">Não</button> 
+                <button onclick="sangramentoSim()" class="btn-respostas" id="btn-sangramento-sim" type="button">Sim</button>   
+                <button onclick="sangramentoNao()" class="btn-respostas" id="btn-sangramento-nao" type="button">Não</button> 
             
             </div>
         </div>
 
-        <div class="pergunta-box" id="respiracao">
+        <div class="tutorial-box-container" id="tt-sangramento-nao">
+
+            <div class="tutorial-box">
+
+                <img class="tutorial-img" src="../img/cpr.webp" alt="Imagem de tutorial">
+
+                <p class="tutorial-p">
+                    Ótimo, mantenha a calma. Espere pela emergência e siga as próximas intruções se necessário.                
+                </p>
+            </div>
+        </div>
+
+
+        <div class="tutorial-box-container" id="tt-sangramento-sim">
+
+            <p class="titulo-tutorial">                    
+                Se você se deparar com um sangramento, siga estas instruções:
+            </p>
+            <div class="tutorial-box">
+
+                <img class="tutorial-img" src="../img/cpr.webp" alt="Imagem de tutorial">
+
+                <p class="tutorial-p">
+                    Use um Paninho Limpo: Se possível, peça à vítima para pressionar um pano limpo, gaze ou curativo sobre a ferida.
+                    Eleve a Parte Lesionada: Se a ferida estiver em um braço ou perna, ajude a vítima a elevar a parte do corpo afetada.
+                    Aplique Pressão Direta: Aplique pressão direta sobre a ferida com as mãos ou usando o pano limpo.
+                    Seque o Sangue: Se o pano ficar saturado, adicione mais panos, mas evite retirar o pano original, pois isso pode perturbar o processo de coagulação.
+                    Chame Ajuda Profissional: Ligue para o serviço de emergência (SAMU ou equivalente) para obter ajuda profissional.
+                    Continue Aplicando Pressão: Continue aplicando pressão até que a ajuda profissional chegue ou até que o sangramento pare.
+                </p>
+            </div>
+        </div>
+
+        
+        <div class="pergunta-box" id="fratura">
 
             <div class="pergunta">
                 <p>O paciente possui alguma fratura visível?</p>
@@ -184,13 +218,47 @@
 
             <div class="repostas-box">
 
-                <button onclick="" class="btn-respostas" id="respiracao-sim" type="button">Sim</button>   
-                <button onclick="batimentoNao()" class="btn-respostas" id="respiracao-nao" type="button">Não</button> 
+                <button onclick="fraturaSim()"" class="btn-respostas" id="btn-fratura-sim" type="button">Sim</button>   
+                <button onclick="fraturaNao()" class="btn-respostas" id="btn-fratura-nao" type="button">Não</button> 
             
             </div>
         </div>
 
-        <div class="pergunta-box" id="respiracao">
+        <div class="tutorial-box-container" id="tt-fratura-nao">
+
+            <div class="tutorial-box">
+
+                <img class="tutorial-img" src="../img/cpr.webp" alt="Imagem de tutorial">
+
+                <p class="tutorial-p">
+                    Ótimo, mantenha a calma. Espere pela emergência e siga as próximas intruções se necessário.                
+                </p>
+            </div>
+        </div>
+
+
+        <div class="tutorial-box-container" id="tt-fratura-sim">
+
+            <p class="titulo-tutorial">                    
+                Em caso de um membro quebrado ou fraturado, é essencial seguir as seguintes instruções de primeiros socorros:            </p>
+            <div class="tutorial-box">
+
+                <img class="tutorial-img" src="../img/cpr.webp" alt="Imagem de tutorial">
+
+                <p class="tutorial-p">
+                    Mantenha a calma e tranquilize a vítima.
+                    Imobilize o membro ferido para evitar movimentos que possam causar mais danos.
+                    Se possível, aplique uma compressa fria na área para reduzir o inchaço.
+                    Chame ajuda profissional imediatamente ou peça a alguém para fazer isso.
+                    Evite movimentar a vítima, a menos que seja absolutamente necessário.
+                    Caso seja necessário mover a vítima, faça-o com extremo cuidado e mantenha o membro imobilizado.
+                    Observe sinais de choque, como palidez, respiração rápida ou pulso fraco, e tome medidas apropriadas.
+                    Forneça conforto e suporte emocional à vítima enquanto aguarda a chegada da ajuda profissional.
+                 </p>
+            </div>
+        </div>
+
+        <div class="pergunta-box" id="concussao">
 
             <div class="pergunta">
                 <p>O paciente bateu a cabeça?</p>
@@ -198,13 +266,45 @@
 
             <div class="repostas-box">
 
-                <button onclick="" class="btn-respostas" id="respiracao-sim" type="button">Sim</button>   
-                <button onclick="batimentoNao()" class="btn-respostas" id="respiracao-nao" type="button">Não</button> 
+                <button onclick="concussaoSim()" class="btn-respostas" id="btn-concussao-sim" type="button">Sim</button>   
+                <button onclick="concussaoNao()" class="btn-respostas" id="btn-concussao-nao" type="button">Não</button> 
             
             </div>
         </div>
 
-        <div class="pergunta-box" id="respiracao">
+        <div class="tutorial-box-container" id="tt-concussao-nao">
+
+            <div class="tutorial-box">
+
+                <img class="tutorial-img" src="../img/cpr.webp" alt="Imagem de tutorial">
+
+                <p class="tutorial-p">
+                    Ótimo, mantenha a calma. Espere pela emergência e siga as próximas intruções se necessário.                
+                </p>
+            </div>
+        </div>
+
+
+        <div class="tutorial-box-container" id="tt-concussao-sim">
+
+            <div class="tutorial-box">
+
+                <img class="tutorial-img" src="../img/cpr.webp" alt="Imagem de tutorial">
+
+                <p class="tutorial-p">
+                    Mantenha a calma e tranquilize a vítima.
+                    Imobilize o membro ferido para evitar movimentos que possam causar mais danos.
+                    Se possível, aplique uma compressa fria na área para reduzir o inchaço.
+                    Chame ajuda profissional imediatamente ou peça a alguém para fazer isso.
+                    Evite movimentar a vítima, a menos que seja absolutamente necessário.
+                    Caso seja necessário mover a vítima, faça-o com extremo cuidado e mantenha o membro imobilizado.
+                    Observe sinais de choque, como palidez, respiração rápida ou pulso fraco, e tome medidas apropriadas.
+                    Forneça conforto e suporte emocional à vítima enquanto aguarda a chegada da ajuda profissional.
+                 </p>
+            </div>
+        </div>
+
+        <div class="pergunta-box" id="queimadura">
 
             <div class="pergunta">
                 <p>O paciente está com alguma queimadura visível?</p>
@@ -212,13 +312,47 @@
 
             <div class="repostas-box">
 
-                <button onclick="" class="btn-respostas" id="respiracao-sim" type="button">Sim</button>   
-                <button onclick="batimentoNao()" class="btn-respostas" id="respiracao-nao" type="button">Não</button> 
+                <button onclick="queimaduraSim()" class="btn-respostas" id="btn-queimadura-sim" type="button">Sim</button>   
+                <button onclick="queimaduraNao()" class="btn-respostas" id="btn-queimadura-nao" type="button">Não</button> 
             
             </div>
         </div>
 
-        <div class="pergunta-box" id="respiracao">
+        <div class="tutorial-box-container" id="tt-queimadura-nao">
+
+            <div class="tutorial-box">
+
+                <img class="tutorial-img" src="../img/cpr.webp" alt="Imagem de tutorial">
+
+                <p class="tutorial-p">
+                    Ótimo, mantenha a calma. Espere pela emergência e siga as próximas intruções se necessário.                
+                </p>
+            </div>
+        </div>
+
+
+        <div class="tutorial-box-container" id="tt-queimadura-sim">
+
+            <div class="tutorial-box">
+
+                <img class="tutorial-img" src="../img/cpr.webp" alt="Imagem de tutorial">
+
+                <p class="tutorial-p">
+                    Em situações de queimaduras, é essencial agir com rapidez e precisão. Primeiramente, pare a fonte de calor para interromper a exposição à queimadura. 
+                    Em seguida, resfrie a área afetada sob água corrente fria por pelo menos 10 minutos, evitando o uso de água muito fria ou gelo. 
+                    Ao remover roupas e joias ao redor da queimadura, faça isso com cuidado, sem forçar a remoção se estiver grudada na pele.
+                    Proteja a queimadura com um pano limpo e seco ou um curativo estéril, evitando o uso direto de algodão na ferida. 
+                    Não aplique produtos como pomadas, manteiga ou pasta de dentes, pois isso pode aumentar o risco de infecção. 
+                    Em casos de queimaduras extensas, profundas ou que afetem áreas sensíveis como rosto, mãos, pés, genitais ou articulações,
+                    é crucial procurar ajuda médica imediatamente.
+                    Alivie a dor, se necessário, oferecendo analgésicos de venda livre conforme as instruções da embalagem. 
+                    Observe atentamente a vítima quanto a sinais de choque, como palidez, sudorese intensa, confusão mental ou respiração rápida.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="pergunta-box" id="engasgo">
 
             <div class="pergunta">
                 <p>O paciente está se engasgando?</p>
@@ -226,13 +360,45 @@
 
             <div class="repostas-box">
 
-                <button onclick="" class="btn-respostas" id="respiracao-sim" type="button">Sim</button>   
-                <button onclick="batimentoNao()" class="btn-respostas" id="respiracao-nao" type="button">Não</button> 
+                <button onclick="engasgoSim()" class="btn-respostas" id="btn-engasgo-sim" type="button">Sim</button>   
+                <button onclick="engasgoNao()" class="btn-respostas" id="btn-engasgo-nao" type="button">Não</button> 
             
             </div>
         </div>
 
-        <div class="pergunta-box" id="respiracao">
+        <div class="tutorial-box-container" id="tt-engasgo-nao">
+
+            <div class="tutorial-box">
+
+                <img class="tutorial-img" src="../img/cpr.webp" alt="Imagem de tutorial">
+
+                <p class="tutorial-p">
+                    Ótimo, mantenha a calma. Espere pela emergência e siga as próximas intruções se necessário.                
+                </p>
+            </div>
+        </div>
+
+
+        <div class="tutorial-box-container" id="tt-engasgo-sim">
+
+            <p class="titulo-tutorial">                    
+                Como agir em caso de engasgo por corpo estranho: Manobra de Heimlich
+            </p>
+            <div class="tutorial-box">
+
+                <img class="tutorial-img" src="../img/cpr.webp" alt="Imagem de tutorial">
+
+                <p class="tutorial-p">
+                    Posicione-se por trás e enlace a vítima com os braços ao redor do abdome (se for uma criança, ajoelhe-se primeiro), caso ela esteja consciente. 
+                    Uma das mãos permanece fechada sobre a chamada “boca do estômago” (região epigástrica). 
+                    A outra mão comprime a primeira, ao mesmo tempo em que empurra a “boca do estômago” para dentro e para cima,
+                    como se quisesse levantar a vítima do chão. 
+                    Faça movimentos de compressão para dentro e para cima (como uma letra “J”), até que a vítima elimine o corpo estranho
+                </p>
+            </div>
+        </div>
+
+        <div class="pergunta-box" id="afogamento">
 
             <div class="pergunta">
                 <p>O paciente se afogou?</p>
@@ -240,13 +406,13 @@
 
             <div class="repostas-box">
 
-                <button onclick="" class="btn-respostas" id="respiracao-sim" type="button">Sim</button>   
-                <button onclick="batimentoNao()" class="btn-respostas" id="respiracao-nao" type="button">Não</button> 
+                <button onclick="afogamentoSim()" class="btn-respostas" id="btn-afogamento-sim" type="button">Sim</button>   
+                <button onclick="afogamentoNao()" class="btn-respostas" id="btn-afogamento-nao" type="button">Não</button> 
             
             </div>
         </div>
 
-        <div class="tutorial-box-container" id="tutorial-cpr">
+        <div class="tutorial-box-container" id="tt-afogamento-nao">
 
             <p class="titulo-tutorial">Por favor realize o procedimento abaixo: </p>
 
@@ -254,10 +420,57 @@
 
                 <img class="tutorial-img" src="../img/cpr.webp" alt="Imagem de tutorial">
 
-                <p class="tutorial-p">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                <p class="tutorial-p">
+                    Ótimo, mantenha a calma. Espere pela emergência e siga as próximas intruções se necessário.               
                 </p>
             </div>
         </div>
+
+        <div class="tutorial-box-container" id="tt-afogamento-sim">
+
+            <p class="titulo-tutorial">Por favor realize o procedimento abaixo: </p>
+
+            <div class="tutorial-box">
+
+                <img class="tutorial-img" src="../img/cpr.webp" alt="Imagem de tutorial">
+
+                <p class="tutorial-p">
+                    O primeiro passo deve ser verificar se a vítima está respirando observando se o tórax infla ou não. 
+                    Caso ela esteja respirando é necessário colocá-la de lado para que ela não sufoque se começar a vomitar.
+              
+                    Caso seja necessário realizar a respiração boca a boca, o socorrista deve inclinar a cabeça da vítima para trás e levantar o queixo. 
+                    Aperte o nariz dela com o polegar e o indicador e com a outra mão abra a boca da vítima.
+              
+                    Inspire normalmente e cubra a boca da pessoa com a sua, soprando o ar lenta e regularmente até que o peito infle. 
+                    Cada insuflação deve durar aproximadamente um segundo até que a vítima reaja.
+                </p>
+            </div>
+        </div>
+
+        <section id="relatorio-medico">
+
+            <h3>Relatório Médico</h3>
+            <table id="relatorio-tabela">
+              <thead>
+                <tr>
+                  <th class="tabela-relatorio-th">Consciência</th>
+                  <th class="tabela-relatorio-th">Respiração</th>
+                  <th class="tabela-relatorio-th">Batimento Cardíaco</th>
+                  <th class="tabela-relatorio-th">Sangramento</th>
+                  <th class="tabela-relatorio-th">Fratura</th>
+                  <th class="tabela-relatorio-th">Lesão na cabeça</th>
+                  <th class="tabela-relatorio-th">Queimadura</th>
+                  <th class="tabela-relatorio-th">Engasgo</th>
+                  <th class="tabela-relatorio-th">Afogamento</th>
+                </tr>
+              </thead>
+      
+              <tbody id="relatorio-informacoes">
+                <!-- Dentro da tag -->
+              </tbody>
+            </table>
+          </section>
+      
 
     </section>
 
