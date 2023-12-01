@@ -133,8 +133,62 @@ section#home{
 
 }
 
+#calculo-texto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+}
+
+.sectionProblemaESolucao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    gap: rem;
+}
+
+.txtProblemaESolucao{
+    align-self: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Serif', serif, Arial, Helvetica, sans-serif;
+    gap: 2rem;
+    text-align: justify;
+    width: 50%;
+    padding-left: 2rem;
+    align-items: center;
+    padding-right: 2rem;
+}
+.lightgray{
+    background-color: lightgray;
+}
+.imgProblemaESolucaoBox{
+    width: 50%;
+    padding-left: 1rem;
+}
+.imgProblemaESolucao{
+    width:80%;
+}
 #python-img{
     width:100%;
+}
+
+#img-calculo{
+    width: 40%;
+}
+
+#texto-calculo{
+    width: 50%;
+    align-self: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Serif', serif, Arial, Helvetica, sans-serif;
+    gap: 2rem;
+    text-align: justify;
 }
 
 #texto-python-1{
@@ -230,6 +284,48 @@ section#home{
     text-align: center;
     text-align: justify;
 }
+
+#requisitos{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#requisitos-funcionais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: lightgray;
+    height: 100vh;
+    justify-content: center;
+    font-family: 'Noto Serif', serif, Arial, Helvetica, sans-serif;
+    gap: 2rem;
+    text-align: center;
+    text-align: justify;
+
+    padding-right: 2rem;
+}
+
+#requisitos-nao-funcionais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+
+    font-family: 'Noto Serif', serif, Arial, Helvetica, sans-serif;
+    gap: 2rem;
+    text-align: center;
+    text-align: justify;
+
+    padding-right: 2rem;
+}
+
 
 /*Contato*/
 
